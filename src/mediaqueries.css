@@ -1,0 +1,524 @@
+@media (min-width: 1400px) {
+
+    nav ul li:nth-last-child(2),
+    nav ul li:nth-last-child(1) {
+        display: none;
+    }
+
+    nav ul li a {
+        color: #0A1D29;
+    }
+
+    nav ul li a:hover {
+        /* font-weight: bold; */
+        color: #0A1D29;
+        text-decoration: underline;
+        text-decoration-color: #FF5C1D;
+        text-underline-offset: 20px;
+
+    }
+
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    nav ul li:nth-last-child(2),
+    nav ul li:nth-last-child(1) {
+        display: none;
+    }
+
+    nav ul li a {
+        color: #0A1D29;
+    }
+
+    nav ul li a:hover {
+        /* font-weight: bold; */
+        color: #0A1D29;
+        text-decoration: underline;
+        text-decoration-color: #FF5C1D;
+        text-underline-offset: 20px;
+
+    }
+
+    nav ul li {
+
+        padding-right: 31px;
+    }
+
+    .thirdSec .box {
+        width: 365px;
+
+    }
+
+    .thirdSec .box span {
+
+        font-size: 14px;
+
+    }
+    .eightSec {
+        height: 1120px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    nav ul li:nth-last-child(2),
+    nav ul li:nth-last-child(1) {
+        display: none;
+    }
+
+    nav .item-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul li a {
+        color: #0A1D29;
+    }
+
+    nav ul {
+        margin-left: 20px;
+    }
+
+    nav ul li {
+        padding-right: 8px;
+        /* margin-left: 30px; */
+        margin-left: 10px;
+
+    }
+
+    nav ul li a:hover {
+        /* font-weight: bold; */
+        color: #0A1D29;
+        text-decoration: underline;
+        text-decoration-color: #FF5C1D;
+        text-underline-offset: 20px;
+
+    }
+
+    .login {
+        display: block;
+    }
+
+    .thirdSec .box {
+        width: 301px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+    }
+
+    .thirdSec .box {
+
+        height: 200px;
+
+    }
+
+    .fourSec .mainimg {
+        width: 100%;
+        ;
+    }
+    .fifthSec .right-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sevenSec{
+        text-align: center;
+    }
+    .sevenSec .Sevenimg {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .sevenSec h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .eightSec .eightimg {
+        width: 65%;
+    }
+    .eightSec h3 {
+        font-size: 30px;
+       
+    }
+
+     
+    .eightSec .eightBox {
+        margin: 0 auto;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    .eightSec .priceimg {
+        display: block;
+         margin: auto;
+         width: 250px;
+    }
+
+    .eightSec .eightimg {
+        width: 50%;
+    }
+
+    .eightSec .eightBox {
+        height: 462px;
+    }
+
+    .eightSec {
+        height: 1880px;
+        
+    }
+
+    
+    
+
+}   
+
+
+@media (max-width: 992px) {
+
+    .container,
+    .row,
+    .col {
+        padding: 0;
+        margin: 0;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+ 
+
+    .header .menubar {
+        display: block;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        order: 2;
+        display: block; /* Display as block element */
+    }
+
+    li {
+        display: block;
+        margin-bottom: 10px; /* Adjust spacing between menu items */
+    }
+
+    .login {
+        display: none;
+    }
+
+    /* Apply styles for menu links */
+    li a {
+        display: block;
+        padding: 10px; /* Adjust padding as needed */
+        text-decoration: none;
+        color: #000; /* Adjust link color */
+        transition: background-color 0.3s; /* Add smooth transition effect */
+    }
+
+    li a:hover {
+        background-color: #f0f0f0; /* Change background color on hover */
+    }
+    .menubar {
+        position: fixed;
+        top: 30px;
+        left: 250px;
+    }
+
+    nav ul {
+
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #141A1C;
+        top: 80px;
+        text-align: center;
+        transition: all 1.5s ease-in-out;
+        /* Apply transition property once with timing function */
+        left: -100%;
+        /* Start off-screen */
+        margin-top: 10px
+    }
+
+    nav ul li:nth-last-child(1),
+    nav ul li:nth-last-child(2) {
+        /* Styles for the second-to-last and last <li> elements */
+        /* For example: */
+        text-align: center;
+        /* Adjust the styles as needed */
+    }
+
+    nav ul {
+        flex-direction: column-reverse;
+    }
+
+    nav ul.show-menu {
+        left: 0;
+        /* Slide in from the left */
+        margin-top: 75px;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+        color: white;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+
+    .show-menu {
+        display: block;
+    }
+
+    .hide-menu {
+        display: none;
+    }
+
+    .thirdSec .box {
+        margin: 0 auto;
+        margin-bottom: 20px
+    }
+
+    .thirdSec .carimg {
+        width: 47%;
+        ;
+    }
+
+    .thirdSec h3 {
+        font-size: 35px;
+    }
+
+    .thirdSec span {
+
+        font-size: 13px;
+
+    }
+
+    .thirdSec {
+        height: 1700px;
+    }
+
+    .fourSec {
+        text-align: center;
+    }
+
+    .fourSec h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .fourIcons p {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .fourSec p {
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 39.2px;
+        text-align: center;
+    }
+
+    .fifthSec .right-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sevenSec{
+        text-align: center;
+    }
+    .sevenSec .Sevenimg {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .sevenSec h2 {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .eightSec .eightBox {
+        margin: 0 auto;
+        width: 40%;
+        margin-bottom: 50px;
+    }
+    .eightSec {
+        height: 2086px;
+    }
+    .eightSec .priceimg {
+        margin: 0 auto;
+        display: flex;
+        width: 50%;
+    }
+     .eightSec .eightimg {
+        width: 70%;
+     }
+
+     .cardText .card-text {
+        font-size: 20px;
+     }
+     .comma {
+        width: 40%;
+     }
+}
+
+@media (max-width: 768px) {
+
+    .sliderCont h1 {
+        font-size: 45px;
+        line-height: 60.8px;
+    }
+
+    .thirdSec .carimg {
+        width: 50%;
+        ;
+    }
+
+    .thirdSec .box {
+        margin: 0 auto;
+        margin-bottom: 20px
+    }
+
+    .thirdSec {
+        height: 1695px;
+    }
+    .fourSec p {
+        font-size: 16px;
+       
+        line-height: 20px;
+        text-align: center;
+    }
+    .fifthSec .container {
+        text-align: center;
+        height: 281px;
+        /* border: 1px solid black; */
+    }
+    .fifthSec {
+      
+        height: 483px;       
+    }
+
+    .eightSec {
+        height: 2000px;
+    }
+    .eightSec .eightBox {
+        margin: 0 auto;
+        width: 52%;
+        margin-bottom: 50px;
+    }
+
+    .cardText .card-text {
+        font-size: 10px;
+     }
+     .comma {
+        width: 15%;
+     }
+     .second-slide {
+        display: none;
+     }
+}
+
+
+@media (max-width: 576px) {
+
+    .subHeader span {
+        font-size: 10px;
+    }
+
+
+    .secSection h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .thirdSec .box {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 340px;
+
+    }
+
+    .thirdSec {
+        height: 1648px
+    }
+
+    .fourSec .mainimg {
+        width: 80%;
+        ;
+    }
+
+    .fourSec h3 {
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 700;
+        /* line-height: 0; */
+        color: #FF5C1D;
+    }
+
+    .fourSec h1 {
+
+        width: 100%;
+        font-size: 23px;
+    }
+
+    .fourSec p {
+        font-size: 19px;
+    }
+    .fourSec p span{
+        font-size: 16px; 
+             
+    }
+    .fifthSec {
+        text-align: center;
+    }
+    .fifthSec .container {
+        text-align: center;
+        height: 382px;
+        /* border: 1px solid black; */
+    }
+    .fifthSec {
+       
+        height: 383px;
+        
+    }
+
+    .eightSec {
+        height: 1969px;
+    }
+
+    .eightSec .eightBox {
+        
+        width: 78%;
+       
+    }
+    .eightSec h3 {
+        
+        font-size: 45px;
+        /* line-height: 28px; */
+        /* text-align: center; */
+    }
+    .testimg {
+        width: 100%;
+    }
+
+}

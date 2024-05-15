@@ -12,7 +12,9 @@ import HomeAdvantages from './HomeAdvantages';
 import HomePricing from './HomePricing';
 import HomeTestimonials from './HomeTestimonials';
 import BootstrapSLider from './BootstrapSLider';
-
+import HomeAccordian from './HomeAccordian';
+import HomeInformation from './HomeInformation';
+import Footer from './Footer';
 function App(){
   return(
     <div>
@@ -28,7 +30,9 @@ function App(){
       <HomeAdvantages />
       <HomePricing/>
       <HomeTestimonials />
-       
+       <HomeAccordian />
+       <HomeInformation />
+       <Footer />
     
     </div>
   )

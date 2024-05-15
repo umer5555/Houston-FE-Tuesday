@@ -22,9 +22,9 @@ function HostonMenu() {
     <div className='subHeader item-center'>
       <Container>
         <Row>
-          <Col lg="3" sm="6" md="4" xl="3" xs="6"> <img src="/email.svg" />
+          <Col lg="3" sm="6" md="4" xl="3" xs="6"> <img src={`${process.env.PUBLIC_URL}/email.svg`}  /> 
                             <span>houston365@gmail.com</span></Col>
-          <Col lg="3" sm="6" md="4" xl="3" xs="6"><img src="/phone.png" />
+          <Col lg="3" sm="6" md="4" xl="3" xs="6"><img src={`${process.env.PUBLIC_URL}/phone.png`} /> 
                             <span>878-3853-9576</span></Col>
 
         </Row>
@@ -34,7 +34,7 @@ function HostonMenu() {
     
     <Container>
             <Row className='item-center'>
-                <Col lg="2"  style={{ display:"flex",alignItems:"center", justifyContent:"space-between"}}    ><img src="/logo.png" /> 
+                <Col lg="2"  style={{ display:"flex",alignItems:"center", justifyContent:"space-between"}}  > <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" /> 
                  <FiMenu onClick={toggleMenu} /></Col>
                 <Col lg="8" className='container-fluid'  >
                     <ul className={isMenuOpen ? 'show-menu' : 'hide-menu'}>

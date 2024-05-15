@@ -13,17 +13,17 @@ function CarRental() {
                     <div className='secBox'>
                         <Row>
                             <Col lg="4" >
-                                <img src='/c1.png'></img>
+                                <img src={`${process.env.PUBLIC_URL}/c1.png`}></img>
                                 <h3>Select Car</h3>
                                 <p>To contribute to positive change and achieve our sustainability goals with many extraordinary</p>
                             </Col>
                             <Col lg="4">
-                                <img src='/c2.png'></img>
+                                <img src={`${process.env.PUBLIC_URL}/c2.png`}></img>
                                 <h3>Contact Operator</h3>
                                 <p>To contribute to positive change and achieve our sustainability goals with many extraordinary</p>
                             </Col>
                             <Col lg="4">
-                                <img src='/c3.png'></img>
+                                <img src={`${process.env.PUBLIC_URL}/c3.png`}></img>
                                 <h3>Let’s Drive</h3>
                                 <p>To contribute to positive change and achieve our sustainability goals with many extraordinary</p>
                             </Col>

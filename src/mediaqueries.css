@@ -17,6 +17,9 @@
         text-underline-offset: 20px;
 
     }
+    .tenthSec .accimg {
+        width: 80%;
+    }
 
 }
 
@@ -59,6 +62,9 @@
     }
     .eightSec {
         height: 1120px;
+    }
+    .tenthSec .accimg {
+        width: 80%;
     }
 }
 
@@ -172,8 +178,12 @@
         
     }
 
-    
-    
+    .tenthSec .accimg {
+        width: 80%;
+    }
+    .tenthSec hr {
+        margin-left: 50%;
+    }
 
 }   
 
@@ -380,6 +390,9 @@
      .comma {
         width: 40%;
      }
+     .tenthSec {
+        min-height: 150vh;
+     }
 }
 
 @media (max-width: 768px) {
@@ -521,4 +534,32 @@
         width: 100%;
     }
 
+    .tenthSec h2 {
+ 
+        font-weight: 700;
+        line-height: 38px;
+         
+    }
+    
+    .tenthSec p {
+         
+        font-size: 12px;
+         
+    }
+    
+    .tenthSec {
+       
+        min-height: 100vh
+    }
+    .tenthSec .accimg {
+        width: 50%;
+    }
+    
+    .elevenSec .elevenimg {
+        width: 20%;
+    }
+
+    .elevenSec h3{
+        font-size: medium;
+    }
 }

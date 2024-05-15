@@ -875,11 +875,39 @@ font-weight: bold;
     display: flex;
     margin: 0 auto;
 }
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box!important;
+    flex: 0 1 auto!important;
+    width: 10px!important;
+    height: 10px!important;
+    padding: 0!important;
+    margin-right: 3px!important;
+    margin-left: 3px!important;
+    text-indent: -999px!important;
+    cursor: pointer!important;
+    background-color: #fff!important;
+    background-clip: padding-box!important;
+    border: 0!important;
+    border-top: 10px solid transparent!important;
+    border-bottom: 10px solid transparent!important;
+    
+    transition: opacity .6s ease!important;
+    border-radius: 50%!important;  
 
- 
+}
+
 
 .carousel-indicators .active {
     opacity: 1;
     background-color: #DD460C!important;
     /* border-radius: 100%!important ; */
 }
+.carousel-control-next-icon , .carousel-control-prev-icon{
+
+    display: none!important;
+}
+
+.gap-3 {
+    gap: 5rem; /* Adjust the value as needed */
+  }
+  

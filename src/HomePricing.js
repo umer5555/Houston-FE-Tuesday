@@ -6,7 +6,7 @@ function HomePricing() {
   return (
     <>
           <div className='eightSec' >
-                <img style={{  }} className='eightimg' src='/8.png' ></img>
+                <img style={{  }} className='eightimg' src={`${process.env.PUBLIC_URL}/8.png`} ></img>
                 <Container>
                     <Row>
                         <h6>FINEST TRANSPORT</h6>
@@ -29,7 +29,7 @@ function HomePricing() {
                                 <div className='eightBox'>
                                     <h6> Mercedes E-class </h6>
                                     <h3>45<span><strong>$</strong></span></h3>
-                                    <img    className='priceimg' src='/p1.png' ></img>
+                                    <img    className='priceimg' src={`${process.env.PUBLIC_URL}/p1.png`} ></img>
                                     <ul className='priceList'>
                                         <li className="icon-color"> <span><AiOutlineCheck /></span> 2018</li>
                                         <li className="icon-color"> <span><AiOutlineCheck /></span>   3 passengers</li>
@@ -45,7 +45,7 @@ function HomePricing() {
                                 <div className='eightBox'>
                                     <h6> Mercedes E-class </h6>
                                     <h3>45<span><strong>$</strong></span></h3>
-                                    <img   className='priceimg' src='/p2.png' ></img>
+                                    <img   className='priceimg' src={`${process.env.PUBLIC_URL}/p2.png`} ></img>
                                     <ul className='priceList'>
                                         <li className="icon-color"> <span><AiOutlineCheck /></span> 2018</li>
                                         <li className="icon-color"> <span><AiOutlineCheck /></span>   3 passengers</li>
@@ -61,7 +61,7 @@ function HomePricing() {
                                 <div className='eightBox'>
                                     <h6> Mercedes E-class </h6>
                                     <h3>45<span><strong>$</strong></span></h3>
-                                    <img   className='priceimg' src='/p3.png' ></img>
+                                    <img   className='priceimg' src={`${process.env.PUBLIC_URL}/p3.png`} ></img>
                                     <ul className='priceList'>
                                         <li className="icon-color"> <span><AiOutlineCheck /></span> 2018</li>
                                         <li className="icon-color"> <span><AiOutlineCheck /></span>   3 passengers</li>

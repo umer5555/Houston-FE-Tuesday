@@ -36,8 +36,8 @@ function HomeTestimonials() {
                                                         “Certain but she but shyness why cottage. Guy the put instrument sir entreaties affronting.”
                                                     </Card.Text>
                                                     <Row>
-                                                        <Col xs="6"><img className='testimg' src='/cor3.png' ></img></Col>
-                                                        <Col xs="6"><img className='comma' src='/cor2.png' style={{ float: "right", top: "20px" }}></img></Col>
+                                                        <Col xs="6"><img className='testimg' src={`${process.env.PUBLIC_URL}/cor3.png`} ></img></Col>
+                                                        <Col xs="6"><img className='comma' src={`${process.env.PUBLIC_URL}/cor2.png`} style={{ float: "right", top: "20px" }}></img></Col>
                                                     </Row>
                                                 </Card.Body>
                                             </Card>
@@ -48,8 +48,8 @@ function HomeTestimonials() {
                                                         “Certain but she but shyness why cottage. Guy the put instrument sir entreaties affronting.”
                                                     </Card.Text>
                                                     <Row>
-                                                        <Col xs="6"><img className='testimg' src='/cor3.png' ></img></Col>
-                                                        <Col xs="6"><img className='comma' src='/cor2.png' style={{ float: "right", top: "20px" }}></img></Col>
+                                                        <Col xs="6"><img className='testimg' src={`${process.env.PUBLIC_URL}/cor3.png`} ></img></Col>
+                                                        <Col xs="6"><img className='comma' src={`${process.env.PUBLIC_URL}/cor2.png`} style={{ float: "right", top: "20px" }}></img></Col>
                                                     </Row>
                                                 </Card.Body>
                                             </Card>

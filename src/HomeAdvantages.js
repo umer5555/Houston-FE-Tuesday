@@ -18,19 +18,19 @@ function HomeAdvantages() {
                             <h2>WE DELIVER ONLY THE BEST SERVICE</h2>
                             <div className='sevenAllign'>
                                 <div className='sevenCont'>
-                                    <img src='/71.png'></img>
+                                    <img src={`${process.env.PUBLIC_URL}/71.png`}></img>
                                     <div className='sevenIcon'>
                                         <p>Individual approach​</p>
                                     </div>
                                 </div>
                                 <div className='sevenCont'>
-                                    <img src='/72.png'></img>
+                                    <img src={`${process.env.PUBLIC_URL}/72.png`}></img>
                                     <div className='sevenIcon'>
                                         <p>Comfort & Safety</p>
                                     </div>
                                 </div>
                                 <div className='sevenCont'>
-                                    <img src='/73.png'></img>
+                                    <img src={`${process.env.PUBLIC_URL}/73.png`}></img>
                                     <div className='sevenIcon'>
                                         <p>Professional drivers</p>
                                     </div>

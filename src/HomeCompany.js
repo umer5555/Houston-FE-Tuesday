@@ -7,7 +7,7 @@ function HomeCompany() {
     <><div className='fourSec'>
     <Container>
         <Row>
-            <Col lg="6" md="12" sm="12" > <img className='mainimg' src='/4.png'></img></Col>
+            <Col lg="6" md="12" sm="12" > <img className='mainimg' src={`${process.env.PUBLIC_URL}/4.png`}></img></Col>
             <Col  lg="6" md="12" sm="12">
                 <h3>About Company</h3>
                 <h1>You start the engine and your adventure begins</h1>
@@ -18,14 +18,14 @@ function HomeCompany() {
                 <div className='fourIcons'>
                     <Row>
                         <Col xs="4">
-                            <img src='/z1.png'></img>
+                            <img src={`${process.env.PUBLIC_URL}/z1.png`}></img>
                             <h1><CountUp start={0} end={20} duration={3} />+</h1>
                             <p><span>Car Type</span></p>
                         </Col>
-                        <Col xs="4"><img src='/z2.png'></img>
+                        <Col xs="4"><img src={`${process.env.PUBLIC_URL}/z2.png`}></img>
                             <h1><CountUp start={0} end={85} duration={3} />+</h1>
                             <p><span>Car Rental Outlets</span></p></Col>
-                        <Col xs="4"><img src='/z3.png'></img>
+                        <Col xs="4"><img src={`${process.env.PUBLIC_URL}/z3.png`}></img>
                             <h1><CountUp start={0} end={20} duration={3} />+</h1>
                             <p><span>Car Repair Shop</span></p></Col>
 

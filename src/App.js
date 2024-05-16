@@ -15,13 +15,22 @@ import BootstrapSLider from './BootstrapSLider';
 import HomeAccordian from './HomeAccordian';
 import HomeInformation from './HomeInformation';
 import Footer from './Footer';
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+} from "react-router-dom";
 function App(){
   return(
     <div>
       {/* <HomePage /> */}
 
 
-      <HostonMenu />
+      {/* <HostonMenu />
       <Slider />
       <CarRental/>
       <HomeServices/>
@@ -32,8 +41,33 @@ function App(){
       <HomeTestimonials />
        <HomeAccordian />
        <HomeInformation />
-       <Footer />
+       <Footer /> */}
     
+
+
+    <Router>
+                <div  >
+                     
+                    <Routes>
+                        <Route
+                            path="/"
+                            element={<Home />}
+                        ></Route>
+                        <Route
+                            path="/about"
+                            element={<About />}
+                        ></Route>
+                        <Route
+                            path="/contact"
+                            element={<Contact />}
+                        ></Route>
+                    </Routes>
+                </div>
+            </Router>
+
+
+
+
     </div>
   )
 }

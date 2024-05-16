@@ -185,6 +185,8 @@
         margin-left: 50%;
     }
 
+     
+
 }   
 
 
@@ -393,6 +395,10 @@
      .tenthSec {
         min-height: 150vh;
      }
+     .aboutCompany {
+        height: 800px;
+        
+    }
 }
 
 @media (max-width: 768px) {
@@ -449,6 +455,22 @@
      .second-slide {
         display: none;
      }
+     .aboutCompany {
+        
+        height: 1010px;
+    }
+    .aboutCompany h3 {
+        font-size: 29px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .aboutCompany h6 {
+        
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 700;
+        text-align: center;
+    }
 }
 
 
@@ -561,5 +583,8 @@
 
     .elevenSec h3{
         font-size: medium;
+    }
+    .aboutCompany {
+        height: 1200px;
     }
 }

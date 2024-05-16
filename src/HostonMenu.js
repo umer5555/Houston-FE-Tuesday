@@ -60,9 +60,9 @@ function HostonMenu() {
                 <ul className={isMenuOpen ? 'show-menu' : 'hide-menu'}>
                   <li><a href="#"> <Link to="/">Home </Link></a></li>
                   <li><a href="#"><Link to="/about">About</Link></a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Fleet</a></li>
-                  <li><a href="#">Health & Safety</a></li>
+                  <li><a href="#"><Link to="/services">Services</Link></a></li>
+                  <li><a href="#"><Link to="/fleet">Fleet</Link></a></li>
+                  <li><a href="#"><Link to="/health">Health & Safety</Link></a></li>
                   <li><a href="#"><Link to="/contact">Contact Us</Link></a></li>
                   <li><a href="#">Sign In </a></li>
                   <li><a href="#"><Button style={{ background: "linear-gradient(90deg, #FF5C1D 0%, #DD460C 100%)", border: "1px solid #FF5C1D" }}>

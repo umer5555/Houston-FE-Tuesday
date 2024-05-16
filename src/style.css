@@ -131,7 +131,7 @@ span {
     background-image: url('/public/slider.png');
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 600px;
     width: 100%;
     color: aliceblue;
     padding-top: 150px;
@@ -993,7 +993,7 @@ button.accordion-button:active {
     background-image: url('/public/aboutslider.png');
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 600px;
     width: 100%;
     color: aliceblue;
     padding-top: 150px;
@@ -1005,19 +1005,20 @@ button.accordion-button:active {
     /* width: 100%; */
     height: 250px;
     color: white;
-   text-align: center;
-   /* position: fixed; */
+    text-align: center;
+    /* position: fixed; */
 }
 
-.aboutcustomer h3{
+.aboutcustomer h3 {
     font-family: Barlow;
     font-size: 74px;
     font-weight: 700;
     line-height: 88.8px;
     color: #FF5C1D;
-    
+
 }
-.aboutcustomer p{
+
+.aboutcustomer p {
     font-size: 22px;
 }
 
@@ -1026,25 +1027,431 @@ button.accordion-button:active {
     background-color: #000;
     color: white;
 }
-.aboutProfessional  h4{
+
+.aboutProfessional h4 {
     font-family: Barlow;
-font-size: 24px;
-font-style: italic;
-font-weight: 700;
-line-height: 28.8px;
-text-align: left;
-color: #FF5C1D;
-}
-.aboutProfessional h2{
-   font-size: 40px;
-   font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    color: #FF5C1D;
 }
 
-.aboutProfessional p{
+.aboutProfessional h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.aboutProfessional p {
     font-family: Barlow;
     font-size: 20px;
     font-weight: 400;
     line-height: 36px;
     text-align: left;
+
+}
+
+.servicesSlider {
+    background-image: url('/public/servicesslider.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    color: aliceblue;
+    padding-top: 150px;
+}
+
+.allservices {
+    text-align: center;
+    background-color: #000;
+    color: white;
+    padding: 50px 0 50px 0;
+}
+
+.allservices h6 {
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: #FF5C1D;
+
+}
+
+.allservices h2 {
+
+    font-family: Barlow;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+
+
+}
+
+.allservices p {
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+
+
+
+}
+
+.allservices hr {
+
+    width: 23%;
+    color: #FF5C1D;
+    border: 2px solid;
+    opacity: inherit;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.allservices .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+
+    border-radius: 20px;
+
+}
+
+.allservices .cardimg {
+    filter: brightness(50%);
+}
+
+.allservices .cardheading {
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    color: #FF5C1D;
+}
+
+.allservices .cardcont {
+    font-family: Barlow;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000;
+
+}
+
+.allservices .col-4 {
+
+    padding-bottom: 50px;
+}
+
+.servicecontent {
+    margin-bottom: 50px;
+}
+
+.aboutProfessional p {
+    font-family: Barlow;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+.serviceBox {
+    width: 360px;
+    height: 330px;
+    top: 3035px;
+    left: 154px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background: white;
+    padding: 50px 10px 50px 10px;
+}
+
+.serviceBox h3 {
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    color: #FF5C1D;
+    padding: 20px 0 0 10px;
+
+}
+
+.serviceBox p {
+
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19.2px;
+    text-align: left;
+    color: #000;
+
+}
+
+.serviceLocation {
+    background-color: #000;
+    padding: 50px 0 50px 0;
+    color: white;
+}
+
+.serviceLocation h3 {
+
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    color: #FF5C1D;
+
+}
+
+.serviceLocation .locationcont {
+    margin-top: 50px;
+}
+
+.serviceLocation h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+
+}
+
+.serviceLocation p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.2px;
+    text-align: left;
+}
+
+.serviceLocation p span {
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+
+}
+
+.fleetesSlider {
+    background-image: url('/public/fleetslider.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    color: aliceblue;
+    padding-top: 150px;
+}
+
+.fleetcontent {
+
+    color: white;
+    padding-top: 84px;
+}
+
+.fleetcontent h3 {
+    font-family: Barlow;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    text-align: left;
+    color: #FF5C1D;
+}
+
+.fleetcontent p {
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+
+
+}
+
+.fleetcontent ul {
+    float: left;
+    display: grid;
+    text-align: left;
+}
+
+.fleetcontent ul li {
+    /* float: left; */
+    list-style-type: disc;
+}
+
+.fleetcontent Button {
+    float: left;
+}
+
+.healthslider {
+    background-image: url('/public/healthslider.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    color: aliceblue;
+    padding-top: 150px;
+}
+
+.healthSafety {
+    padding-top: 50px;
+    background-color: #000;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.healthSafety h6 {
+
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: #FF5C1D;
+
+}
+
+.healthSafety h2  {
+     font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    
     
 }
+.healthSafety p {
+     
+font-size: 16px;
+font-weight: 500;
+line-height: 19.2px;
+ 
+
+}
+
+.healthSafety  hr{
+    width: 20%;
+    color: #FF5C1D;
+    border: 2px solid;
+    opacity: inherit;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.healthSafety h3 {
+    font-family: Barlow;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+/* text-align: left; */
+color: #FF5C1D;
+display: inline-flex;
+}
+.safetyimg {
+    float: left;
+}
+
+ .healthpara p  {
+    font-family: Barlow;
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+
+ }
+
+ .healthPrecautions {
+    background-image: url('/public/precautions.png');    
+    height: 600px;
+    width: 100%;   
+    padding-top: 50px;
+
+
+ }
+
+ .healthPrecautions p {
+    padding-top: 50px;
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.2px;
+text-align: left;
+
+ }
+ .healthPrecautions .covid {
+    float: right;
+ }
+ .healthPeace {
+    background-color: #000;
+    height: 250px;
+    color: white;
+    text-align: center;
+
+ }
+ .healthPeace h2{
+    font-family: Barlow;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+color: #FF5C1D;
+padding: 50px 0 10px 0;
+
+ }
+
+ .healthPeace p {
+    font-family: Barlow;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
+
+
+ }
+
+ .contactSlider {
+    background-image: url('/public/contactSlider.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    color: aliceblue;
+    padding-top: 150px;
+}
+
+.touchcont h4 {
+    
+font-size: 24px;
+font-weight: 700;
+line-height: 28.8px;
+/* text-align: left; */
+
+}
+.contactForm {
+    background-image: url('/public/form.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    color: aliceblue;
+    padding-top: 50px;
+}
+
+.contactForm  h3 {
+    font-family: Barlow;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+color: #DD460C;
+
+
+ }
+ .contactForm p {
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.2px;
+color: white;
+ }

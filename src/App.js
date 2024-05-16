@@ -18,6 +18,9 @@ import Footer from './Footer';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
+import Services from './Services';
+import Fleet from './Fleet';
+import Health from './Health';
 import {
   BrowserRouter as Router,
   Routes,
@@ -60,6 +63,18 @@ function App(){
                         <Route
                             path="/contact"
                             element={<Contact />}
+                        ></Route>
+                         <Route
+                            path="/services"
+                            element={<Services />}
+                        ></Route>
+                         <Route
+                            path="/fleet"
+                            element={<Fleet />}
+                        ></Route>
+                        <Route
+                            path="/health"
+                            element={<Health />}
                         ></Route>
                     </Routes>
                 </div>

@@ -24,9 +24,9 @@ function About() {
             <AboutSlider />
             <AboutCompany/>
             <AboutCustomers/>
-            {/* <AboutProfessional/>
+            <AboutProfessional/>
             <HomeTestimonials />
-            <HomeInformation /> */}
+            <HomeInformation />
       <Footer />
     </div>
   )

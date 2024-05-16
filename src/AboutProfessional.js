@@ -4,11 +4,11 @@ import { Container,Row,Col, Button } from 'reactstrap'
 function AboutProfessional() {
   return (
     <>
-        <div className=' aboutProfessional item-center'>
+        <div className=' aboutProfessional item-center' >
             <Container>
                 <Row>
-                    <Col xl="6"><img src={`${process.env.PUBLIC_URL}/aboutpro.png`}  /></Col>
-                    <Col xl="6">
+                    <Col xl="6"  lg="6" md="6" sm="12" xs="12"><img src={`${process.env.PUBLIC_URL}/aboutpro.png`}  /></Col>
+                    <Col xl="6" lg="6" md="6" sm="12" xs="12"> 
                         <h4>Professional Drivers</h4>
                         <h2>ONLY QUALIFIED CHAUFFEURS</h2>
                         <p>Houston 365 Only Qualified Chauffeurs, excellence is our driving

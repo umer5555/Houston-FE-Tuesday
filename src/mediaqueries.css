@@ -184,8 +184,39 @@
     .tenthSec hr {
         margin-left: 50%;
     }
-
+    .aboutCompany h3 {
+         
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+    }
      
+    .aboutProfessional img {
+        width: 100%;
+
+    }
+
+    .aboutProfessional h2 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+    .aboutProfessional p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: left;
+    }
+    
+    .aboutProfessional h4 {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 28.8px;
+        text-align: left;
+         
+    }
 
 }   
 
@@ -399,6 +430,41 @@
         height: 800px;
         
     }
+
+    .aboutcustomer h3 {
+         
+        font-size: 63px;
+        font-weight: 700;
+        line-height: 88.8px;
+        color: #FF5C1D;
+    }
+    .aboutcustomer p {
+        font-size: 12px;
+        line-height: 10px;
+    
+}
+
+    .aboutProfessional  img {
+        width: 100%;
+    }
+    .aboutProfessional p {
+   
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 31px;
+        
+    }
+    
+    .aboutProfessional h2 {
+        font-size: 31px;
+        font-weight: 700;
+    }
+    
+    .aboutProfessional h4 {
+        
+        font-size: 20px;
+        
+    }
 }
 
 @media (max-width: 768px) {
@@ -470,6 +536,18 @@
         font-style: italic;
         font-weight: 700;
         text-align: center;
+    }
+    .aboutProfessional {
+        text-align: center;
+ 
+    }
+    .aboutProfessional img{
+        text-align: center;
+        width: 50%;
+    }
+    .aboutProfessional h4{
+        text-align: center;
+        
     }
 }
 
@@ -586,5 +664,11 @@
     }
     .aboutCompany {
         height: 1200px;
+    }
+    .aboutcustomer h3 {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 23.8px;
+      
     }
 }

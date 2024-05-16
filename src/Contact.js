@@ -1,7 +1,9 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Slider from './Slider'
+import ContactSlider from './ContactSlider'
 import HostonMenu from './HostonMenu'
+import ContactTouch from './ContactTouch'
+import ContactForm from './ContactForm'
 function Contact() {
   return (
     <div>
@@ -10,7 +12,9 @@ function Contact() {
                 <title>Contact Us</title>
             </Helmet>
         <HostonMenu />
-        <Slider />
+        <ContactSlider />
+        <ContactTouch />
+        <ContactForm/>
     </div>
   )
 }

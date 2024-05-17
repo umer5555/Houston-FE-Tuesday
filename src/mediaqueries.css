@@ -549,6 +549,12 @@
         text-align: center;
         
     }
+    .serviceBox {
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+ 
 }
 
 
@@ -671,4 +677,23 @@
         line-height: 23.8px;
       
     }
+    .allservices .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+        margin: 0 auto;
+    }
+
+    .aboutProfessional p {
+        text-align: center;
+        font-size: 13px;
+        line-height: 20px;
+     
+    }
+    .aboutProfessional {
+        height: 700px;
+         
+    }
+    .serviceBox {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
+

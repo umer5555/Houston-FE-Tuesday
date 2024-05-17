@@ -1070,7 +1070,7 @@ button.accordion-button:active {
     padding: 50px 0 50px 0;
 }
 
-.allservices h6 {
+.allservices h6, .allservicescity h6{
     font-family: Barlow;
     font-size: 24px;
     font-style: italic;
@@ -1080,7 +1080,7 @@ button.accordion-button:active {
 
 }
 
-.allservices h2 {
+.allservices h2, .allservicescity h2{
 
     font-family: Barlow;
     font-size: 40px;
@@ -1090,7 +1090,7 @@ button.accordion-button:active {
 
 }
 
-.allservices p {
+.allservices p, .allservicescity p {
     font-family: Barlow;
     font-size: 16px;
     font-weight: 500;
@@ -1160,7 +1160,7 @@ button.accordion-button:active {
 }
 
 .serviceBox {
-    width: 360px;
+    width: 100%;
     height: 330px;
     top: 3035px;
     left: 154px;
@@ -1466,4 +1466,20 @@ color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
+ }
+
+ /* check row extra margin */
+ .allservices .row>* {
+    margin-bottom: 40px;
+ }
+
+ .allservicescity {
+    background-image: url('/public/double.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    /* padding-top: 150px; */
  }

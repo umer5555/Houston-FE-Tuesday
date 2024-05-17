@@ -27,7 +27,7 @@ function FleetLuxury() {
                                         className="h-100 justify-content-center align-items-center"
                                         gap={3}
                                     >
-                                        <Card className='first-slide' style={{ width: "520px", height: "400px" }}>
+                                        <Card className='first-slide' style={{ width: "520px;", height: "400px" }}>
                                             <Card.Body>
                                                 <img className='testimg' src={`${process.env.PUBLIC_URL}/f1.png`} />
                                                
@@ -84,7 +84,7 @@ function FleetLuxury() {
                                         className="h-100 justify-content-center align-items-center"
                                         gap={3}
                                     >
-                                        <Card className='first-slide' style={{ width: " 520px", height: "400px" }}>
+                                        <Card className='first-slide' style={{ width: "width: 520px;", height: "400px" }}>
                                             <Card.Body>
                                                 <img className='testimg' src={`${process.env.PUBLIC_URL}/f2.png`} />
                                                 {/* <Card.Title>Card Title</Card.Title> */}
@@ -109,7 +109,7 @@ function FleetLuxury() {
                                         className="h-100 justify-content-center align-items-center"
                                         gap={3}
                                     >
-                                        <Card className='first-slide' style={{ width: "520px", height: "400px" }}>
+                                        <Card className='first-slide' style={{ width: "width: 520px;", height: "400px" }}>
                                             <Card.Body>
                                                 <img className='testimg' src={`${process.env.PUBLIC_URL}/f3.png`} />
                                                 {/* <Card.Title>Card Title</Card.Title> */}
@@ -165,7 +165,7 @@ function FleetLuxury() {
                                         className="h-100 justify-content-center align-items-center"
                                         gap={3}
                                     >
-                                        <Card className='first-slide' style={{ width: "520px", height: "400px" }}>
+                                        <Card className='first-slide' style={{ width: "width: 520px;", height: "400px" }}>
                                             <Card.Body>
                                                 <img className='testimg' src={`${process.env.PUBLIC_URL}/f4.png`} />
                                                 {/* <Card.Title>Card Title</Card.Title> */}
@@ -190,7 +190,7 @@ function FleetLuxury() {
                                         className="h-100 justify-content-center align-items-center"
                                         gap={3}
                                     >
-                                        <Card className='first-slide' style={{ width: "520px", height: "400px" }}>
+                                        <Card className='first-slide' style={{ width: "width: 520px;", height: "400px" }}>
                                             <Card.Body>
                                                 <img className='testimg' src={`${process.env.PUBLIC_URL}/f5.png`} />
                                                 {/* <Card.Title>Card Title</Card.Title> */}

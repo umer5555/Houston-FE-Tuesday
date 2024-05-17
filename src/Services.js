@@ -20,7 +20,7 @@ function Services() {
     <Allservices/>
     <ServicesProfessional />
     <ServicesCity/>
-    <ServiceLocation/>
+    {/* <ServiceLocation/> */}
     <HomeInformation />
       <Footer />
 </>

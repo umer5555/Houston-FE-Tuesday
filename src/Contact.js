@@ -4,6 +4,9 @@ import ContactSlider from './ContactSlider'
 import HostonMenu from './HostonMenu'
 import ContactTouch from './ContactTouch'
 import ContactForm from './ContactForm'
+import Footer from './Footer'
+import HomeInformation from './HomeInformation'
+import ContactMap from './ContactMap'
 function Contact() {
   return (
     <div>
@@ -15,6 +18,10 @@ function Contact() {
         <ContactSlider />
         <ContactTouch />
         <ContactForm/>
+        <ContactMap />
+        <HomeInformation />
+        <Footer />
+        
     </div>
   )
 }

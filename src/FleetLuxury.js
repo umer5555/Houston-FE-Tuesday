@@ -30,6 +30,8 @@ function FleetLuxury() {
                                         <Card className='first-slide' style={{ width: "width: 520px;", height: "400px" }}>
                                             <Card.Body>
                                                 <img className='testimg' src={`${process.env.PUBLIC_URL}/f1.png`} />
+                                               
+                                                
                                                 {/* <Card.Title>Card Title</Card.Title> */}
 
 
@@ -54,8 +56,8 @@ function FleetLuxury() {
                                 <li> Comfortable leather seats</li>
                                 <li> Customization climate control</li>
                                 <li> Seats 3 passengers</li>
-                            </ul> <br></br><br></br><br></br><br></br><br></br><br></br>
-                            <Button style={{ background: "linear-gradient(90deg, #FF5C1D 0%, #DD460C 100%)", boxShadow: "0px 4px 15px 0px #FF5C1D66", border: "1px solid #FF5C1D" }}>Book Now</Button>
+                            </ul> 
+                            <Button style={{ background: "linear-gradient(90deg, #FF5C1D 0%, #DD460C 100%)", boxShadow: "0px 4px 15px 0px #FF5C1D66", border: "1px solid #FF5C1D",size:"sm"}}>Book Now</Button>
                         </Col>
                         <Col xl="6" className='fleetcontent'>
                             <h3>Cadillac Escalade</h3>
@@ -70,7 +72,7 @@ function FleetLuxury() {
                                 <li> Luxurious leather captain’s chairs</li>
                                 <li> Seats 7 passengers</li>
 
-                            </ul> <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+                            </ul> 
                             <Button style={{ background: "linear-gradient(90deg, #FF5C1D 0%, #DD460C 100%)", boxShadow: "0px 4px 15px 0px #FF5C1D66", border: "1px solid #FF5C1D" }}>Book Now</Button>
                         </Col>
                         <Col xl="6"><Carousel style={{ height: 500 }}>
@@ -135,7 +137,7 @@ function FleetLuxury() {
                                 <li> Comfortable leather seats</li>
                                 <li> Customization climate control</li>
                                 <li> Seats 3 passengers</li>
-                            </ul> <br></br><br></br><br></br><br></br><br></br><br></br>
+                            </ul>  
                             <Button style={{ background: "linear-gradient(90deg, #FF5C1D 0%, #DD460C 100%)", boxShadow: "0px 4px 15px 0px #FF5C1D66", border: "1px solid #FF5C1D" }}>Book Now</Button>
                         </Col>
                         <Col xl="6" className='fleetcontent'>
@@ -151,7 +153,7 @@ function FleetLuxury() {
                                 <li> Luxurious leather captain’s chairs</li>
                                 <li> Seats 7 passengers</li>
 
-                            </ul> <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+                            </ul>  
                             <Button style={{ background: "linear-gradient(90deg, #FF5C1D 0%, #DD460C 100%)", boxShadow: "0px 4px 15px 0px #FF5C1D66", border: "1px solid #FF5C1D" }}>Book Now</Button>
                         </Col>
                         <Col xl="6"><Carousel style={{ height: 500 }}>
@@ -215,7 +217,7 @@ function FleetLuxury() {
                                 <li> Comfortable leather seats</li>
                                 <li> Customization climate control</li>
                                 <li> Seats 3 passengers</li>
-                            </ul> <br></br><br></br><br></br><br></br><br></br><br></br>
+                            </ul>  
                             <Button style={{ background: "linear-gradient(90deg, #FF5C1D 0%, #DD460C 100%)", boxShadow: "0px 4px 15px 0px #FF5C1D66", border: "1px solid #FF5C1D" }}>Book Now</Button>
                         </Col>
                     </Row>

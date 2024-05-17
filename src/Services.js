@@ -1,5 +1,5 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+// import { Helmet } from 'react-helmet'
 import HostonMenu from './HostonMenu'
 import ServicesSlider from './ServicesSlider'
 import Allservices from './Allservices'
@@ -10,10 +10,11 @@ import HomeInformation from './HomeInformation'
 import Footer from './Footer'
 function Services() {
   return (
-    <>  <Helmet>
+    <>  
+    {/* <Helmet>
     <meta charSet="utf-8" />
     <title>Services</title>
-    </Helmet>
+    </Helmet> */}
     <HostonMenu />
     <ServicesSlider/>
     <Allservices/>

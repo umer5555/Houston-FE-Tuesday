@@ -1,5 +1,5 @@
 import React from 'react'
-import { Helmet  } from 'react-helmet'
+import { Helmet,HelmetProvider } from 'react-helmet-async'
 import HostonMenu from './HostonMenu'
 import HealthSlider from './HealthSlider'
 import HealthSafety from './HealthSafety'
@@ -9,8 +9,9 @@ import HomeInformation from './HomeInformation'
 import Footer from './Footer'
 function Health() {
   return (
+    <HelmetProvider>
     <div>
-        <Helmet>
+    <Helmet>
     <meta charSet="utf-8" />
     <title>Health & Safety</title>
     </Helmet>
@@ -22,6 +23,7 @@ function Health() {
     <HomeInformation />
       <Footer />
     </div>
+    </HelmetProvider>
   )
 }
 

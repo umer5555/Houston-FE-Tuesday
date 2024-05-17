@@ -20,14 +20,14 @@ function FleetLuxury() {
                     <Row>
                         <Col xl="6"><Carousel style={{ height: 500 }}>
                             {reviews.map((review, index) => (
-                                <Carousel.Item style={{ height: 500 }}>
+                                <Carousel.Item key={index} style={{ height: 500 }}>
 
                                     <Stack
                                         direction="horizontal"
                                         className="h-100 justify-content-center align-items-center"
                                         gap={3}
                                     >
-                                        <Card className='first-slide' style={{ width: "width: 520px;", height: "400px" }}>
+                                        <Card className='first-slide' style={{ width: "520px", height: "400px" }}>
                                             <Card.Body>
                                                 <img className='testimg' src={`${process.env.PUBLIC_URL}/f1.png`} />
                                                
@@ -77,14 +77,14 @@ function FleetLuxury() {
                         </Col>
                         <Col xl="6"><Carousel style={{ height: 500 }}>
                             {reviews.map((review, index) => (
-                                <Carousel.Item style={{ height: 500 }}>
+                                <Carousel.Item key={index} style={{ height: 500 }}>
 
                                     <Stack
                                         direction="horizontal"
                                         className="h-100 justify-content-center align-items-center"
                                         gap={3}
                                     >
-                                        <Card className='first-slide' style={{ width: "width: 520px;", height: "400px" }}>
+                                        <Card className='first-slide' style={{ width: " 520px", height: "400px" }}>
                                             <Card.Body>
                                                 <img className='testimg' src={`${process.env.PUBLIC_URL}/f2.png`} />
                                                 {/* <Card.Title>Card Title</Card.Title> */}
@@ -102,14 +102,14 @@ function FleetLuxury() {
                         </Carousel></Col>
                         <Col xl="6"><Carousel style={{ height: 500 }}>
                             {reviews.map((review, index) => (
-                                <Carousel.Item style={{ height: 500 }}>
+                                <Carousel.Item key={index} style={{ height: 500 }}>
 
                                     <Stack
                                         direction="horizontal"
                                         className="h-100 justify-content-center align-items-center"
                                         gap={3}
                                     >
-                                        <Card className='first-slide' style={{ width: "width: 520px;", height: "400px" }}>
+                                        <Card className='first-slide' style={{ width: "520px", height: "400px" }}>
                                             <Card.Body>
                                                 <img className='testimg' src={`${process.env.PUBLIC_URL}/f3.png`} />
                                                 {/* <Card.Title>Card Title</Card.Title> */}
@@ -158,14 +158,14 @@ function FleetLuxury() {
                         </Col>
                         <Col xl="6"><Carousel style={{ height: 500 }}>
                             {reviews.map((review, index) => (
-                                <Carousel.Item style={{ height: 500 }}>
+                                <Carousel.Item key={index} style={{ height: 500 }}>
 
                                     <Stack
                                         direction="horizontal"
                                         className="h-100 justify-content-center align-items-center"
                                         gap={3}
                                     >
-                                        <Card className='first-slide' style={{ width: "width: 520px;", height: "400px" }}>
+                                        <Card className='first-slide' style={{ width: "520px", height: "400px" }}>
                                             <Card.Body>
                                                 <img className='testimg' src={`${process.env.PUBLIC_URL}/f4.png`} />
                                                 {/* <Card.Title>Card Title</Card.Title> */}
@@ -183,14 +183,14 @@ function FleetLuxury() {
                         </Carousel></Col>
                         <Col xl="6"><Carousel style={{ height: 500 }}>
                             {reviews.map((review, index) => (
-                                <Carousel.Item style={{ height: 500 }}>
+                                <Carousel.Item  key={index} style={{ height: 500 }}>
 
                                     <Stack
                                         direction="horizontal"
                                         className="h-100 justify-content-center align-items-center"
                                         gap={3}
                                     >
-                                        <Card className='first-slide' style={{ width: "width: 520px;", height: "400px" }}>
+                                        <Card className='first-slide' style={{ width: "520px", height: "400px" }}>
                                             <Card.Body>
                                                 <img className='testimg' src={`${process.env.PUBLIC_URL}/f5.png`} />
                                                 {/* <Card.Title>Card Title</Card.Title> */}

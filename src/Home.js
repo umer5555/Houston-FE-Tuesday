@@ -17,10 +17,10 @@ import { Helmet } from 'react-helmet'
 function Home() {
   return (
     <div>
-        <Helmet>
+        {/* <Helmet>
                 <meta charSet="utf-8" />
                 <title>Houston Limo</title>
-            </Helmet>
+            </Helmet> */}
         <HostonMenu />
         <Slider />
         <CarRental/>

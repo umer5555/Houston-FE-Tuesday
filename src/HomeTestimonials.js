@@ -29,7 +29,7 @@ function HomeTestimonials() {
                                             className="h-100 justify-content-center align-items-center"
                                             gap={3}
                                         >
-                                            <Card className='first-slide' style={{ width: "width: 520px;", height: "280px" }}>
+                                            <Card className='first-slide' style={{ width: "520px", height: "280px" }}>
                                                 <Card.Body>
                                                     {/* <Card.Title>Card Title</Card.Title> */}
                                                     <Card.Text className='cardText '>

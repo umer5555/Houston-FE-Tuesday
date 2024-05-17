@@ -8,10 +8,10 @@ import Footer from './Footer'
 function Fleet() {
   return (
     <>
-     <Helmet>
+     {/* <Helmet>
     <meta charSet="utf-8" />
     <title>Fleet</title>
-    </Helmet>
+    </Helmet> */}
     <HostonMenu />
     <FleetSlider/>
     <FleetLuxury/>

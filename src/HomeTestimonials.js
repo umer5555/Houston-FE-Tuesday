@@ -22,7 +22,7 @@ function HomeTestimonials() {
                         <Row>
                             <Carousel style={{ height: 500}}>
                                 {reviews.map((review, index) => (
-                                    <Carousel.Item style={{ height: 500 }}>
+                                    <Carousel.Item key={index} style={{ height: 500 }}>
 
                                         <Stack
                                             direction="horizontal"
@@ -41,7 +41,7 @@ function HomeTestimonials() {
                                                     </Row>
                                                 </Card.Body>
                                             </Card>
-                                            <Card style={{ width: "width: 520px;", height: "280px" }}>
+                                            <Card style={{ width: "520px", height: "280px" }}>
                                                 <Card.Body className='second-slide' >
                                                     {/* <Card.Title>Card Title</Card.Title> */}
                                                     <Card.Text className='cardText '>

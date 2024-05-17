@@ -58,16 +58,16 @@ function HostonMenu() {
                 <FiMenu onClick={toggleMenu} /></Col>
               <Col lg="8" className='container-fluid'  >
                 <ul className={isMenuOpen ? 'show-menu' : 'hide-menu'}>
-                  <li><a href="#"> <Link to="/">Home </Link></a></li>
-                  <li><a href="#"><Link to="/about">About</Link></a></li>
-                  <li><a href="#"><Link to="/services">Services</Link></a></li>
-                  <li><a href="#"><Link to="/fleet">Fleet</Link></a></li>
-                  <li><a href="#"><Link to="/health">Health & Safety</Link></a></li>
-                  <li><a href="#"><Link to="/contact">Contact Us</Link></a></li>
-                  <li><a href="#">Sign In </a></li>
-                  <li><a href="#"><Button style={{ background: "linear-gradient(90deg, #FF5C1D 0%, #DD460C 100%)", border: "1px solid #FF5C1D" }}>
+                  <li> <Link to="/">Home </Link></li>
+                  <li><Link to="/about">About</Link></li>
+                  <li><Link to="/services">Services</Link></li>
+                  <li><Link to="/fleet">Fleet</Link></li>
+                  <li><Link to="/health">Health & Safety</Link></li>
+                  <li><Link to="/contact">Contact Us</Link></li>
+                  <li>Sign In </li>
+                  <li><Button style={{ background: "linear-gradient(90deg, #FF5C1D 0%, #DD460C 100%)", border: "1px solid #FF5C1D" }}>
                     Register
-                  </Button></a></li>
+                  </Button></li>
 
 
                 </ul>

@@ -56,6 +56,12 @@ function App(){
                             path="/"
                             element={<Home />}
                         ></Route>
+                         <Route path="/umer5555/Houston-FE-Tuesday" element={<Home />} />
+                         <Route
+                            path="/"
+                            element={<Home />}
+                        ></Route>
+                        
                         <Route
                             path="/about"
                             element={<About />}

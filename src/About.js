@@ -16,7 +16,7 @@ function About() {
     <div>
         <Helmet>
                 <meta charSet="utf-8" />
-                <title>About Us</title>
+                <title>About - Us</title>
                 </Helmet>
 
 

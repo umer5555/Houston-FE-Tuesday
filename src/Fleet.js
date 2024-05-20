@@ -5,6 +5,9 @@ import FleetSlider from './FleetSlider'
 import FleetLuxury from './FleetLuxury'
 import HomeInformation from './HomeInformation'
 import Footer from './Footer'
+import HomeTestimonials from './HomeTestimonials'
+import ResponsiveCarousel from './ResponsiveCarousel'
+
 function Fleet() {
   return (
     <>
@@ -12,9 +15,11 @@ function Fleet() {
     <meta charSet="utf-8" />
     <title>Fleet</title>
     </Helmet>
-    <HostonMenu />
-    <FleetSlider/>
+    <HostonMenu />    
+    {/* <FleetSlider/> */}
     <FleetLuxury/>
+    {/* <ResponsiveCarousel /> */}
+    <HomeTestimonials />
     <HomeInformation />
 
         

@@ -7,7 +7,7 @@ function Allservices() {
         <div className='allservices item-center'>
             <Container>
                 <Row>
-                    <Col xs="12">
+                    <Col xl="12">
                         <div className='servicecontent'>
                             <h6>Our Services</h6>
                             <h2>Elevate Your Experience with Our Distinct Offerings</h2>
@@ -16,7 +16,7 @@ function Allservices() {
                         </div>
                     </Col>
                     <Row>
-                        <Col xs="4">
+                        <Col xl="4" lg="4" md="4" sm="12" >
                             <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia className='cardimg'
                                     sx={{ height: 200 }}
@@ -37,7 +37,7 @@ function Allservices() {
                                 </CardActions>
                             </Card>
                         </Col>
-                        <Col xs="4">        
+                        <Col xl="4" lg="4" md="4" sm="12" >        
                         <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia className='cardimg'
                                     sx={{ height: 200 }}
@@ -58,7 +58,7 @@ function Allservices() {
                                 </CardActions>
                             </Card>
                             </Col>
-                        <Col xs="4"> <Card sx={{ maxWidth: 345 }}>
+                        <Col xl="4" lg="4" md="4" sm="12" > <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia className='cardimg'
                                     sx={{ height: 200 }}
                                     image={`${process.env.PUBLIC_URL}/s3.png`}
@@ -77,7 +77,7 @@ function Allservices() {
                                     {/* Add buttons or other actions here if needed */}
                                 </CardActions>
                             </Card></Col>
-                            <Col xs="4"> <Card sx={{ maxWidth: 345 }}>
+                            <Col xl="4" lg="4" md="4" sm="12" > <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia className='cardimg'
                                     sx={{ height: 200 }}
                                     image={`${process.env.PUBLIC_URL}/s4.png`}
@@ -96,7 +96,7 @@ function Allservices() {
                                     {/* Add buttons or other actions here if needed */}
                                 </CardActions>
                             </Card></Col>
-                            <Col xs="4"> <Card sx={{ maxWidth: 345 }}>
+                            <Col xl="4" lg="4" md="4" sm="12" > <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia className='cardimg'
                                     sx={{ height: 200 }}
                                     image={`${process.env.PUBLIC_URL}/s5.png`}
@@ -115,7 +115,7 @@ function Allservices() {
                                     {/* Add buttons or other actions here if needed */}
                                 </CardActions>
                             </Card></Col>
-                            <Col xs="4"> <Card sx={{ maxWidth: 345 }}>
+                            <Col xl="4" lg="4" md="4" sm="12" > <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia className='cardimg'
                                     sx={{ height: 200 }}
                                     image={`${process.env.PUBLIC_URL}/s6.png`}
@@ -134,7 +134,7 @@ function Allservices() {
                                     {/* Add buttons or other actions here if needed */}
                                 </CardActions>
                             </Card></Col>
-                            <Col xs="4"> <Card sx={{ maxWidth: 345 }}>
+                            <Col xl="4" lg="4" md="4" sm="12" > <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia className='cardimg'
                                     sx={{ height: 200 }}
                                     image={`${process.env.PUBLIC_URL}/s7.png`}
@@ -153,7 +153,7 @@ function Allservices() {
                                     {/* Add buttons or other actions here if needed */}
                                 </CardActions>
                             </Card></Col>
-                            <Col xs="4"> <Card sx={{ maxWidth: 345 }}>
+                            <Col xl="4" lg="4" md="4" sm="12" > <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia className='cardimg'
                                     sx={{ height: 200 }}
                                     image={`${process.env.PUBLIC_URL}/s8.png`}
@@ -172,7 +172,7 @@ function Allservices() {
                                     {/* Add buttons or other actions here if needed */}
                                 </CardActions>
                             </Card></Col>
-                            <Col xs="4"> <Card sx={{ maxWidth: 345 }}>
+                            <Col xl="4" lg="4" md="4" sm="12" > <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia className='cardimg'
                                     sx={{ height: 200 }}
                                     image={`${process.env.PUBLIC_URL}/s9.png`}
@@ -191,7 +191,7 @@ function Allservices() {
                                     {/* Add buttons or other actions here if needed */}
                                 </CardActions>
                             </Card></Col>
-                            <Col xs="4"> <Card sx={{ maxWidth: 345 }}>
+                            <Col xl="4" lg="4" md="4" sm="12" > <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia className='cardimg'
                                     sx={{ height: 200 }}
                                     image={`${process.env.PUBLIC_URL}/s10.png`}
@@ -210,7 +210,7 @@ function Allservices() {
                                     {/* Add buttons or other actions here if needed */}
                                 </CardActions>
                             </Card></Col>
-                            <Col xs="4"> <Card sx={{ maxWidth: 345 }}>
+                            <Col xl="4" lg="4" md="4" sm="12" > <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia className='cardimg'
                                     sx={{ height: 200 }}
                                     image={`${process.env.PUBLIC_URL}/s11.png`}
@@ -229,7 +229,7 @@ function Allservices() {
                                     {/* Add buttons or other actions here if needed */}
                                 </CardActions>
                             </Card></Col>
-                            <Col xs="4"> <Card sx={{ maxWidth: 345 }}>
+                            <Col xl="4" lg="4" md="4" sm="12" > <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia className='cardimg'
                                     sx={{ height: 200 }}
                                     image={`${process.env.PUBLIC_URL}/s12.png`}

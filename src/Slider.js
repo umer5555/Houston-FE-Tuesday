@@ -5,7 +5,7 @@ import {Button} from 'reactstrap'
 function Slider() {
   return (
     <> 
-        <div className='slider'>
+        <div className='homeslider'>
                 
                 <Col xs="12">
                 <div className='sliderCont'>

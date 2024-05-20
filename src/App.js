@@ -21,6 +21,7 @@ import Contact from './Contact';
 import Services from './Services';
 import Fleet from './Fleet';
 import Health from './Health';
+import NewMenu from './NewMenu';
 import {
   BrowserRouter as Router,
   Routes,
@@ -56,7 +57,7 @@ function App(){
                             path="/"
                             element={<Home />}
                         ></Route>
-                         <Route path="/umer5555/Houston-FE-Tuesday" element={<Home />} />
+                         <Route path="/umer5555/Houston-FE-Tuesday.git" element={<Home />} />
                          <Route
                             path="/"
                             element={<Home />}
@@ -81,6 +82,10 @@ function App(){
                         <Route
                             path="/health"
                             element={<Health />}
+                        ></Route>
+                        <Route
+                            path="/menu"
+                            element={<NewMenu />}
                         ></Route>
                     </Routes>
                 </div>

@@ -19,7 +19,6 @@ function Services() {
     <Allservices/>
     <ServicesProfessional />
     <ServicesCity/>
-    <ServiceLocation/>
     <HomeInformation />
       <Footer />
 </>

@@ -520,6 +520,10 @@
 .desktopmenu {
   display: none;
 }
+
+.contactForm {
+  height: 840px;
+}
   
 }
 
@@ -636,6 +640,11 @@
 }
 .desktopmenu {
   display: none;
+}
+.contactForm {
+ 
+  height: 930px;
+ 
 }
 
 }

@@ -109,10 +109,10 @@ function HostonMenu() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">About</Nav.Link>
-                  <NavDropdown
-                    title="Services"
+                  <Nav.Link href="/">Home</Nav.Link>
+                  <Nav.Link href="/about">About</Nav.Link>
+                  <NavDropdown 
+                    title="Services" 
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
                     <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
@@ -124,10 +124,9 @@ function HostonMenu() {
                       Something else here
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#action2">Fleet</Nav.Link>
-                  <Nav.Link href="#action2">Health & Safety</Nav.Link>
-                  <Nav.Link href="#action2">Contact Us</Nav.Link>
-                  <Nav.Link href="#action2">About</Nav.Link>
+                  <Nav.Link href="/fleet">Fleet</Nav.Link>
+                  <Nav.Link href="/health">Health & Safety</Nav.Link>
+                  <Nav.Link href="/contact">Contact Us</Nav.Link>
                 </Nav>
                 
                 <Nav className="justify-content-end ">
